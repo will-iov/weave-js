@@ -1,5 +1,3 @@
-/* jshint esversion:6 */
-
 import {KeyBase} from './keybase';
 import {open} from './db';
 import {Client} from './client';
@@ -25,7 +23,7 @@ function signTx(Tx, tx, sender, chainID) {
 }
 
 // buildSendTx constructs a sendMsg to move tokens from the sender to rcpt
-// Tx - the app-specific Tx wrapper. We assume they use StdSignature, 
+// Tx - the app-specific Tx wrapper. We assume they use StdSignature,
 //      and support sendMsg, but are quite flexible about the rest
 // sender - KeyPair (from KeyBase) to send and sign the tx
 // rcpt - address to receive the message

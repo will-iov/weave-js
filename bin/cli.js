@@ -1,5 +1,3 @@
-/* jshint esversion: 6 */
-
 const repl = require("repl");
 const weave = require("../lib/weave.node.js");
 const leveldown = require("leveldown");

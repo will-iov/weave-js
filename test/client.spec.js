@@ -1,5 +1,3 @@
-/* jshint: use esversion:6 */
-
 import fs from 'fs';
 import {execFile, spawn} from 'child_process';
 import path from "path";

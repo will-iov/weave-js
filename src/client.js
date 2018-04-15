@@ -1,5 +1,3 @@
-/* jshint esversion: 6 */
-
 import protobuf from "protobufjs";
 
 import { RpcClient } from './tendermint';
