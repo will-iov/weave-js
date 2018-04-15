@@ -15,7 +15,7 @@ module.exports = {
             use: [{
                 loader: 'babel-loader',
                 query: {
-                    presets: ['babili']
+                    presets: ['minify']
                 }
             }]
         }]
