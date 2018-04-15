@@ -15,6 +15,7 @@
     "cli": "node bin/cli.js",
     "tdd": "jest --watch",
     "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand --watch",
+    "lint": "eslint .",
     "start": "webpack-dev-server --config webpack/demo.js",
     "build": "webpack --config webpack/build.js --output-path=lib/",
     "build:min": "webpack -p --config webpack/build_min.js --output-path=lib/",
