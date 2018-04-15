@@ -19,7 +19,6 @@
     "start": "webpack-dev-server --config webpack/demo.js",
     "build": "webpack --config webpack/build.js --output-path=lib/",
     "build:min": "webpack -p --config webpack/build_min.js --output-path=lib/",
-    "build:all": "yarn run build && yarn run build:min",
     "build:lib": "yarn run build && yarn run build:min",
     "prepublishOnly": "yarn test && rimraf lib/** && yarn run build:lib",
     "pbjs": "node ./node_modules/protobufjs/cli/bin/pbjs",
