@@ -42,7 +42,7 @@ var nodeConfig = {
                 { loader: 'babel-loader'}
             ]
         }]
-    },
+    }
 }
 
 module.exports = [webConfig, nodeConfig]

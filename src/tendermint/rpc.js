@@ -12,7 +12,7 @@ const tendermintMethods = require('./methods.js')
 
 function convertArgs (args) {
   args = args || {}
-  for (let k in args) {
+  for (let k of args) {
     let v = args[k]
     if (Buffer.isBuffer(v)) {
       args[k] = '0x' + v.toString('hex')

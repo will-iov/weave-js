@@ -65,9 +65,9 @@ const defObj = function (obj) {
 }
 
 const describe = function (x) {
-    if (typeof x == 'function') {
+    if (typeof x === 'function') {
         defFn(x).print();
-    } else if (typeof x == 'object') {
+    } else if (typeof x === 'object') {
         defObj(x).print();
     } else {
         console.log(x)
